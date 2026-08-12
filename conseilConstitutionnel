@@ -1,0 +1,46 @@
+{
+  "company_details": {
+    "company_name": "BLCCOPYRIGHT_LTD",
+    "company_type": "Private Limited Company (LTD)",
+    "jurisdiction": "United Kingdom",
+    "incorporation_country": "England and Wales",
+    "registered_office_address": {
+      "address_line_1": "123 Business Street",
+      "locality": "London",
+      "postal_code": "EC1A 1BB",
+      "country": "United Kingdom"
+    }
+  },
+  "board_of_directors": [
+    {
+      "id": "dir_01",
+      "first_name": "Charles Loïc",
+      "last_name": "Baillif",
+      "role": "Director",
+      "appointment_date": "2026-08-12",
+      "nationality": "French",
+      "country_of_residence": "United Kingdom",
+      "powers": {
+        "authority_level": "Full Powers",
+        "description": "Sole and absolute operational, financial, and legal signing authority for the corporation.",
+        "can_appoint_directors": true,
+        "can_allocate_shares": true,
+        "can_bind_company_legally": true
+      },
+      "service_address": {
+        "use_registered_office": true
+      }
+    }
+  ],
+  "persons_with_significant_control": [
+    {
+      "id": "psc_01",
+      "nature_of_control": [
+        "ownership-of-shares-75-to-100-percent",
+        "voting-rights-75-to-100-percent",
+        "right-to-appoint-and-remove-directors"
+      ],
+      "linked_director_id": "dir_01"
+    }
+  ]
+}
